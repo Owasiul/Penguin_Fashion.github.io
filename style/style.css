@@ -90,4 +90,17 @@ nav ul li :hover {
   .card-img:hover img {
     transform: scale(1.05);
   }
+  /* product-end */
+  /* services start */
+.service-card{
+    background-color: white;
+    width: 550px;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(150, 132, 132, 0.2);
+    transition: transform 0.3s ease;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+  }
 /* main end */
